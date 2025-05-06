@@ -7,4 +7,7 @@ services:
       - php -v
     build_as_root:
       - echo "Hello from build_as_root"
+events:
+  post-start:
+    - echo "Hello from post-start"
 
