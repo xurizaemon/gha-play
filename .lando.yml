@@ -1,0 +1,10 @@
+name: gha-play
+services:
+  php:
+    type: php:8.3
+    run_as_root:
+      - echo "Hello from run_as_root"
+      - php -v
+    build_as_root:
+      - echo "Hello from build_as_root"
+
