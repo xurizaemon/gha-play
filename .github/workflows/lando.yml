@@ -18,3 +18,7 @@ jobs:
         uses: lando/setup-lando@v3
       - name: Lando Start
         run: lando start
+      - name: Lando Stop
+        run: lando stop
+      - name: Lando Start
+        run: lando start
